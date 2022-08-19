@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="shortcut icon" href="./image/download.png" type="image/x-icon" />
+    <!-- bootstrap CSS cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+    <!-- jQuery plugin css link -->
+    <link rel="stylesheet" href="./css/owl.carousel.css" />
+    <link rel="stylesheet" href="./css/owl.theme.css" />
+    <!-- Custom css link -->
+    <link rel="stylesheet" href="./css//style.css" />
+</head>
+
+<body>
+    <!-- header area start -->
+    <header id="header">
+        <div class="inner-header">
+            <div class="container-area">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="logo">
+                            <a href="#">
+                                <img src="./image/instragrame-logo.png" alt="logo" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="search-bar">
+                            <input type="search" name="search" id="search" placeholder="Search" />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="menu-icon">
+                            <div class="inner-menu-icon">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <svg aria-label="Home" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                <path
+                                                    d="M22 23h-6.001a1 1 0 01-1-1v-5.455a2.997 2.997 0 10-5.993 0V22a1 1 0 01-1 1H2a1 1 0 01-1-1V11.543a1.002 1.002 0 01.31-.724l10-9.543a1.001 1.001 0 011.38 0l10 9.543a1.002 1.002 0 01.31.724V22a1 1 0 01-1 1z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <svg aria-label="Direct" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                <line fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                    stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083"></line>
+                                                <polygon fill="none"
+                                                    points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                                                    stroke="currentColor" stroke-linejoin="round" stroke-width="2">
+                                                </polygon>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <svg aria-label="New post" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                <path
+                                                    d="M2 12v3.45c0 2.849.698 4.005 1.606 4.944.94.909 2.098 1.608 4.946 1.608h6.896c2.848 0 4.006-.7 4.946-1.608C21.302 19.455 22 18.3 22 15.45V8.552c0-2.849-.698-4.006-1.606-4.945C19.454 2.7 18.296 2 15.448 2H8.552c-2.848 0-4.006.699-4.946 1.607C2.698 4.547 2 5.703 2 8.552z"
+                                                    fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2"></path>
+                                                <line fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" x1="6.545" x2="17.455"
+                                                    y1="12.001" y2="12.001"></line>
+                                                <line fill="none" stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" stroke-width="2" x1="12.003" x2="12.003"
+                                                    y1="6.545" y2="17.455"></line>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <svg aria-label="Find People" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                <polygon fill="none"
+                                                    points="13.941 13.953 7.581 16.424 10.06 10.056 16.42 7.585 13.941 13.953"
+                                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2"></polygon>
+                                                <polygon fill-rule="evenodd"
+                                                    points="10.06 10.056 13.949 13.945 7.581 16.424 10.06 10.056">
+                                                </polygon>
+                                                <circle cx="12.001" cy="12.005" fill="none" r="10.5"
+                                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                    stroke-width="2"></circle>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <svg aria-label="Activity Feed" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                <path
+                                                    d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+                                                </path>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <div class="main-profile">
+                                                <img src="./image/profile.jpg" alt="profile" />
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end-->
+    <!-- body area start -->
+    <section id="body-area">
+        <div class="inner-body">
+            <div class="container-body">
+                <div class="row">
+                    <div class="col-md-7">
+                        <section id="top-slider">
+                            <div class="inner-top-slider">
+                                <div class="container-body">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <div class="wrapper">
+                                                <!-- Top slider area start -->
+                                                <div id="owl-demo" class="owl-carousel owl-theme">
+                                                    <div class="item">
+                                                        <img class="top-slider-border" src="./image//top-slider.png" alt="">
+                                                        <img class="top-slider-img" src="./image//profile.jpg" alt="The Last of us">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="top-slider-border" src="./image//top-slider.png" alt="">
+                                                        <img class="top-slider-img" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80" alt="The Last of us">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="top-slider-border" src="./image//top-slider.png" alt="">
+                                                        <img class="top-slider-img" src="https://st.depositphotos.com/1269204/1219/i/600/depositphotos_12196477-stock-photo-smiling-men-isolated-on-the.jpg" alt="The Last of us">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="top-slider-border" src="./image//top-slider.png" alt="">
+                                                        <img class="top-slider-img" src="https://cdn.pixabay.com/photo/2014/07/09/10/04/man-388104_960_720.jpg" alt="The Last of us">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="top-slider-border" src="./image//top-slider.png" alt="">
+                                                        <img class="top-slider-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4SyD0ND-nVnnqoyhiGRd10vSflaT9cwS7ky1YQknPzG9HglFyFoR137gvBXaAKOwHLL0&usqp=CAU" alt="The Last of us">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="top-slider-border" src="./image//top-slider.png" alt="">
+                                                        <img class="top-slider-img" src="https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=2000" alt="The Last of us">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="top-slider-border" src="./image//top-slider.png" alt="">
+                                                        <img class="top-slider-img" src="https://www.nationalworld.com/jpim-static/image/2022/07/08/16/who-is-the-richest-person-in-the-world-2022-elon-musk.jpg?width=640&quality=65&smart" alt="The Last of us">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="top-slider-border" src="./image//top-slider.png" alt="">
+                                                        <img class="top-slider-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjmnLMQfvoM8gtXw-f0jf4F8BMnoxMW7mlhOslW2CsIz1N8fEy2LgVuF7O5Dp2kWhH8yU&usqp=CAU" alt="The Last of us">
+                                                    </div>
+                                                    <div class="item">
+                                                        <img class="top-slider-border" src="./image//top-slider.png" alt="">
+                                                        <img class="top-slider-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS20dV6f4mjZ8Jlbsq_swmCyGGuhZAI920vVA&usqp=CAU" alt="The Last of us">
+                                                    </div>
+                                                </div>
+                                                <!-- Top slider area end -->
+                                            </div>
+                                        </div>
+                                        <div class="col-5"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </section>
+                        <!-- Post area  start-->
+                        <div class="body-card">
+                            <div class="card-header">
+                                <div class="card-profile-image">
+                                    <div class="inner-card-profile-image">
+                                        <img class="card-profile-image-border" src="./image//top-slider.png" alt="">
+                                        <img class="card-profile-image-image" src="./image/profile.jpg" alt="The Last of us">
+                                    </div>
+                                </div>
+                                <div class="card-profile-name">
+                                    <h5>Ridoy Sharif</h5>
+                                    <p>Rangpur</p>
+                                </div>
+                                <div class="card-profile-ment">
+                                    <svg aria-label="More options" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <circle cx="12" cy="12" r="1.5"></circle>
+                                        <circle cx="6" cy="12" r="1.5"></circle>
+                                        <circle cx="18" cy="12" r="1.5"></circle>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-image">
+                                <img src="./image/image-01.jpg" alt="" />
+                            </div>
+                            <div class="card-footer">
+                                <div class="footer-icon">
+                                    <div class="footer-menu-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Activity Feed" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <path
+                                                            d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Comment" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z"
+                                                            fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Share Post" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <line fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083">
+                                                        </line>
+                                                        <polygon fill="none"
+                                                            points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                                                            stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2"></polygon>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="footer-icon-save">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <svg aria-label="Save" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                    <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                                                        stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2"></polygon>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="f-content">
+                                    <h5>3,261 likes</h5>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores exercitationem veniam, vitae qui alias, pariatur sed officia ipsum, labore repellat culpa ut assumenda. Consequuntur quae labore explicabo eum ex quia!
+                                    </p>
+                                    <a href="#">View all 82 comments</a>
+                                    <span>6 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="f-comment-post">
+                                <div class="card-header">
+                                    <div class="card-profile-image card-Emoji">
+                                        <svg aria-label="Emoji" class="_ab6-" color="#262626" fill="#262626" height="30" role="img" viewBox="0 0 24 24" width="30">
+                                            <path
+                                                d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="card-profile-name">
+                                        <form action="">
+                                            <input type="text" placeholder="Add a comment" />
+                                        </form>
+                                    </div>
+                                    <div class="card-profile-ment post">
+                                        <p>Post</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Post area end -->
+
+                        <!-- Post area  start-->
+                        <div class="body-card">
+                            <div class="card-header">
+                                <div class="card-profile-image">
+                                    <div class="inner-card-profile-image">
+                                        <img class="card-profile-image-border" src="./image//top-slider.png" alt="">
+                                        <img class="card-profile-image-image" src="./image/01.jpg" alt="The Last of us">
+                                    </div>
+                                </div>
+                                <div class="card-profile-name">
+                                    <h5>William</h5>
+                                    <p>USA</p>
+                                </div>
+                                <div class="card-profile-ment">
+                                    <svg aria-label="More options" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <circle cx="12" cy="12" r="1.5"></circle>
+                                        <circle cx="6" cy="12" r="1.5"></circle>
+                                        <circle cx="18" cy="12" r="1.5"></circle>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-image">
+                                <img src="./image/image-02.jpg" alt="" />
+                            </div>
+                            <div class="card-footer">
+                                <div class="footer-icon">
+                                    <div class="footer-menu-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Activity Feed" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <path
+                                                            d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Comment" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z"
+                                                            fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Share Post" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <line fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083">
+                                                        </line>
+                                                        <polygon fill="none"
+                                                            points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                                                            stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2"></polygon>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="footer-icon-save">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <svg aria-label="Save" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                    <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                                                        stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2"></polygon>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="f-content">
+                                    <h5>5,000 likes</h5>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores exercitationem veniam, vitae qui alias, pariatur sed officia ipsum, labore repellat culpa ut assumenda. Consequuntur quae labore explicabo eum ex quia!
+                                    </p>
+                                    <a href="#">View all 102 comments</a>
+                                    <span>16 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="f-comment-post">
+                                <div class="card-header">
+                                    <div class="card-profile-image card-Emoji">
+                                        <svg aria-label="Emoji" class="_ab6-" color="#262626" fill="#262626" height="30" role="img" viewBox="0 0 24 24" width="30">
+                                            <path
+                                                d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="card-profile-name">
+                                        <form action="">
+                                            <input type="text" placeholder="Add a comment" />
+                                        </form>
+                                    </div>
+                                    <div class="card-profile-ment post">
+                                        <p>Post</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Post area  ebd-->
+                        <!-- Post area  start-->
+                        <div class="body-card">
+                            <div class="card-header">
+                                <div class="card-profile-image">
+                                    <div class="inner-card-profile-image">
+                                        <img class="card-profile-image-border" src="./image//top-slider.png" alt="">
+                                        <img class="card-profile-image-image" src="./image/02.jpg" alt="The Last of us">
+                                    </div>
+                                </div>
+                                <div class="card-profile-name">
+                                    <h5>Jack</h5>
+                                    <p>Japan</p>
+                                </div>
+                                <div class="card-profile-ment">
+                                    <svg aria-label="More options" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <circle cx="12" cy="12" r="1.5"></circle>
+                                        <circle cx="6" cy="12" r="1.5"></circle>
+                                        <circle cx="18" cy="12" r="1.5"></circle>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-image">
+                                <img src="./image/image-03.jpg" alt="" />
+                            </div>
+                            <div class="card-footer">
+                                <div class="footer-icon">
+                                    <div class="footer-menu-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Activity Feed" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <path
+                                                            d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Comment" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z"
+                                                            fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Share Post" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <line fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083">
+                                                        </line>
+                                                        <polygon fill="none"
+                                                            points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                                                            stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2"></polygon>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="footer-icon-save">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <svg aria-label="Save" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                    <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                                                        stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2"></polygon>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="f-content">
+                                    <h5>2,150likes</h5>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores exercitationem veniam, vitae qui alias, pariatur sed officia ipsum, labore repellat culpa ut assumenda. Consequuntur quae labore explicabo eum ex quia!
+                                    </p>
+                                    <a href="#">View all 50 comments</a>
+                                    <span>7 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="f-comment-post">
+                                <div class="card-header">
+                                    <div class="card-profile-image card-Emoji">
+                                        <svg aria-label="Emoji" class="_ab6-" color="#262626" fill="#262626" height="30" role="img" viewBox="0 0 24 24" width="30">
+                                            <path
+                                                d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="card-profile-name">
+                                        <form action="">
+                                            <input type="text" placeholder="Add a comment" />
+                                        </form>
+                                    </div>
+                                    <div class="card-profile-ment post">
+                                        <p>Post</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Post area  end-->
+                        <!-- Post area  start-->
+                        <div class="body-card">
+                            <div class="card-header">
+                                <div class="card-profile-image">
+                                    <div class="inner-card-profile-image">
+                                        <img class="card-profile-image-border" src="./image//top-slider.png" alt="">
+                                        <img class="card-profile-image-image" src="./image/04.jpg" alt="The Last of us">
+                                    </div>
+                                </div>
+                                <div class="card-profile-name">
+                                    <h5>James</h5>
+                                    <p>USA</p>
+                                </div>
+                                <div class="card-profile-ment">
+                                    <svg aria-label="More options" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                        <circle cx="12" cy="12" r="1.5"></circle>
+                                        <circle cx="6" cy="12" r="1.5"></circle>
+                                        <circle cx="18" cy="12" r="1.5"></circle>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="card-image">
+                                <img src="./image/image-05.jpg" alt="" />
+                            </div>
+                            <div class="card-footer">
+                                <div class="footer-icon">
+                                    <div class="footer-menu-icon">
+                                        <ul>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Activity Feed" class="_ab6-" color="#262626" fill="#262626" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <path
+                                                            d="M16.792 3.904A4.989 4.989 0 0121.5 9.122c0 3.072-2.652 4.959-5.197 7.222-2.512 2.243-3.865 3.469-4.303 3.752-.477-.309-2.143-1.823-4.303-3.752C5.141 14.072 2.5 12.167 2.5 9.122a4.989 4.989 0 014.708-5.218 4.21 4.21 0 013.675 1.941c.84 1.175.98 1.763 1.12 1.763s.278-.588 1.11-1.766a4.17 4.17 0 013.679-1.938m0-2a6.04 6.04 0 00-4.797 2.127 6.052 6.052 0 00-4.787-2.127A6.985 6.985 0 00.5 9.122c0 3.61 2.55 5.827 5.015 7.97.283.246.569.494.853.747l1.027.918a44.998 44.998 0 003.518 3.018 2 2 0 002.174 0 45.263 45.263 0 003.626-3.115l.922-.824c.293-.26.59-.519.885-.774 2.334-2.025 4.98-4.32 4.98-7.94a6.985 6.985 0 00-6.708-7.218z">
+                                                        </path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Comment" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <path d="M20.656 17.008a9.993 9.993 0 10-3.59 3.615L22 22z"
+                                                            fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2"></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <svg aria-label="Share Post" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                        <line fill="none" stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2" x1="22" x2="9.218" y1="3" y2="10.083">
+                                                        </line>
+                                                        <polygon fill="none"
+                                                            points="11.698 20.334 22 3.001 2 3.001 9.218 10.084 11.698 20.334"
+                                                            stroke="currentColor" stroke-linejoin="round"
+                                                            stroke-width="2"></polygon>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="footer-icon-save">
+                                    <ul>
+                                        <li>
+                                            <a href="">
+                                                <svg aria-label="Save" class="_ab6-" color="#262626" fill="#8e8e8e" height="24" role="img" viewBox="0 0 24 24" width="24">
+                                                    <polygon fill="none" points="20 21 12 13.44 4 21 4 3 20 3 20 21"
+                                                        stroke="currentColor" stroke-linecap="round"
+                                                        stroke-linejoin="round" stroke-width="2"></polygon>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="f-content">
+                                    <h5>1,000 likes</h5>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores exercitationem veniam, vitae qui alias, pariatur sed officia ipsum, labore repellat culpa ut assumenda. Consequuntur quae labore explicabo eum ex quia!
+                                    </p>
+                                    <a href="#">View all 46 comments</a>
+                                    <span>1 hours ago</span>
+                                </div>
+                            </div>
+                            <div class="f-comment-post">
+                                <div class="card-header">
+                                    <div class="card-profile-image card-Emoji">
+                                        <svg aria-label="Emoji" class="_ab6-" color="#262626" fill="#262626" height="30" role="img" viewBox="0 0 24 24" width="30">
+                                            <path
+                                                d="M15.83 10.997a1.167 1.167 0 101.167 1.167 1.167 1.167 0 00-1.167-1.167zm-6.5 1.167a1.167 1.167 0 10-1.166 1.167 1.167 1.167 0 001.166-1.167zm5.163 3.24a3.406 3.406 0 01-4.982.007 1 1 0 10-1.557 1.256 5.397 5.397 0 008.09 0 1 1 0 00-1.55-1.263zM12 .503a11.5 11.5 0 1011.5 11.5A11.513 11.513 0 0012 .503zm0 21a9.5 9.5 0 119.5-9.5 9.51 9.51 0 01-9.5 9.5z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <div class="card-profile-name">
+                                        <form action="">
+                                            <input type="text" placeholder="Add a comment" />
+                                        </form>
+                                    </div>
+                                    <div class="card-profile-ment post">
+                                        <p>Post</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Post area  end-->
+                    </div>
+                    <div class="col-md-5">
+                        <div class="profile-switch">
+                            <!-- main profile  area  start-->
+                            <div class="inner-profile-switch">
+                                <div class="profile-switch-img">
+                                    <img src="./image//profile.jpg" alt="" />
+                                </div>
+                                <div class="profile-switch-name">
+                                    <article>
+                                        <a href="#">wdridoy</a>
+                                        <p>Ridoy sharif</p>
+                                    </article>
+                                </div>
+                                <div class="profile-switch-switch">
+                                    <a href="#">Switch</a>
+                                </div>
+                            </div>
+                            <!-- Suggestions friends  start-->
+                            <div class="Suggestions">
+                                <div class="inner-Suggestions">
+                                    <div class="sug">
+                                        <p>Suggestions For You</p>
+                                    </div>
+                                    <div class="see-all-btn">
+                                        <a href="#">See All</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Suggestions friends  end-->
+                            <!-- Suggestions friends list  start-->
+                            <div class="friends-profile">
+                                <div class="inner-friends-profile">
+                                    <div class="profile-friends-img">
+                                        <img src="https://scontent.fdac3-1.fna.fbcdn.net/v/t39.30808-6/278227016_2844712132488344_4752882859171758546_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeF1po2hF-mPLBXoZRcL6CTofxofkk7A14d_Gh-STsDXh9en7Cb7Yq88Xnpr7RICSCY_xC8bSuPPuMeA9dvW8AzG&_nc_ohc=xG85Pdaayy0AX-HLTsN&_nc_zt=23&_nc_ht=scontent.fdac3-1.fna&oh=00_AT-E194Y5z6s1CnRmpYLr2_1CGAxV23bF9GWYGE0_Ef3Fg&oe=6304CC6C"
+                                            alt="" />
+                                    </div>
+                                    <div class="friends-profile-name">
+                                        <article>
+                                            <a href="#">sabbir324</a>
+                                            <p>Follows you</p>
+                                        </article>
+                                    </div>
+                                    <div class="friends-profile-follow">
+                                        <a href="#">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="inner-friends-profile">
+                                    <div class="profile-friends-img">
+                                        <img src="https://scontent.fjsr1-1.fna.fbcdn.net/v/t1.6435-9/117127108_2796369643979460_8669147205849196160_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFHEt7-yAW-xsSXmZzaqASNwmNjPsIR6GzCY2M-whHobKOs3EPv44IePyRYtSKw_Jpw8aJVGTW7ztsTfHkP5u_e&_nc_ohc=vO_rLZ4Vh40AX_RBM23&_nc_ht=scontent.fjsr1-1.fna&oh=00_AT-NZwoNp8SfJFAljAGO5dDvv8yj2f87RZfeeOwHecucJw&oe=631F2A27"
+                                            alt="" />
+                                    </div>
+                                    <div class="friends-profile-name">
+                                        <article>
+                                            <a href="#">Raza254</a>
+                                            <p>Follows you</p>
+                                        </article>
+                                    </div>
+                                    <div class="friends-profile-follow">
+                                        <a href="#">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="inner-friends-profile">
+                                    <div class="profile-friends-img">
+                                        <img src="https://scontent.fjsr1-1.fna.fbcdn.net/v/t1.6435-9/155842639_1125143634618794_4226142651311381979_n.jpg?stp=dst-jpg_p720x720&_nc_cat=106&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeGggAd-8M4-AKlr2ZFPHKRrReYqsMCSSoNF5iqwwJJKg-njRT-TGlkyp8heVunls80OvaGYw6dR6aPQYecl4Von&_nc_ohc=_pM3h5BpXZ0AX8OSJKN&_nc_ht=scontent.fjsr1-1.fna&oh=00_AT_ALJpPZH_woxCjKjWbMTm9F4yDhLRy07Tw6wIU6V43ZA&oe=631E98A9"
+                                            alt="" />
+                                    </div>
+                                    <div class="friends-profile-name">
+                                        <article>
+                                            <a href="#">Somrat217</a>
+                                            <p>Follows you</p>
+                                        </article>
+                                    </div>
+                                    <div class="friends-profile-follow">
+                                        <a href="#">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="inner-friends-profile">
+                                    <div class="profile-friends-img">
+                                        <img src="https://scontent.fjsr1-1.fna.fbcdn.net/v/t31.18172-8/18359356_108079166435010_7593737130635594342_o.jpg?_nc_cat=103&ccb=1-7&_nc_sid=174925&_nc_eui2=AeGrlRF-eU1DV7LxwToim4VxVZn0oUuCOYNVmfShS4I5gySLG7TDz7fG6PyFMHFp6ZwN68UCNIiszEV0b8fFpTIv&_nc_ohc=-bW7WVv2AQsAX-YAdx7&_nc_ht=scontent.fjsr1-1.fna&oh=00_AT8zlkwJyI33RSuiQJF_V_fIvBodExeMakEjIZanZ4_6Bg&oe=631F0ECF"
+                                            alt="" />
+                                    </div>
+                                    <div class="friends-profile-name">
+                                        <article>
+                                            <a href="#">Jewel516</a>
+                                            <p>Follows you</p>
+                                        </article>
+                                    </div>
+                                    <div class="friends-profile-follow">
+                                        <a href="#">Follow</a>
+                                    </div>
+                                </div>
+                                <div class="inner-friends-profile">
+                                    <div class="profile-friends-img">
+                                        <img src="https://scontent.fjsr1-1.fna.fbcdn.net/v/t1.6435-9/162433084_464181961681476_5377988039855388329_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFrP_XFcAht24B_vUeEFOLwCgmJOK4dW1QKCYk4rh1bVI-d6MwISjJ03RTdcxG0rxlLsmnSro9eLDJZlLOZG9Sh&_nc_ohc=26nefgy5nzMAX8OHXmT&_nc_ht=scontent.fjsr1-1.fna&oh=00_AT9rvyuKmQl3fF5ML7LFkMMQU66PuLnGgto1RH8-2YJXQA&oe=631BF573"
+                                            alt="" />
+                                    </div>
+                                    <div class="friends-profile-name">
+                                        <article>
+                                            <a href="#">Sharif</a>
+                                            <p>Follows you</p>
+                                        </article>
+                                    </div>
+                                    <div class="friends-profile-follow">
+                                        <a href="#">Follow</a>
+                                    </div>
+                                </div>
+                                <!-- Suggestions friends list  end-->
+                                <!-- Suggestions item list  start-->
+
+                                <div class="footer-menu-content-list">
+                                    <ul>
+                                        <li>
+                                            <a href="#">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Help</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Press</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">API</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Jobs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Privacy</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Terms</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Locations</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Language</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- Suggestions item list  start-->
+
+                                <div class="copy-right-message">
+                                    <p>© 2022 INSTAGRAM FROM META</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- body area end -->
+    <!-- JavaScript Bundle with Popper bootstrap cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <!-- jquery js cdn link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- jQuery plugin js link -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <!-- Custom js link -->
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
